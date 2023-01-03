@@ -1,10 +1,7 @@
 # ==== CONFIGURE =====
-FROM node:14
+FROM node:14-buster
 
 WORKDIR /workdir
 
-COPY . .
-
-RUN npm install 
-
-CMD [ "npm", "start" ]
+# Test Add Serverless Env
+RUN npm install -g serverless
