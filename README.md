@@ -1,5 +1,4 @@
-## Docker Compose + Dockerfile
+## Docker Compose
 
-- docker compose up --build
 - docker compose up
 - docker compose down
